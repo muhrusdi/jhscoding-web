@@ -1,5 +1,8 @@
 ## Pokedex
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/muhrusdi/jhscoding-web.svg)](https://greenkeeper.io/)
+
+
 This website provides a RESTful API interface to highly detailed
 objects built from thousands of lines of data related to Pokémon. We
 specifically cover the video game franchise
