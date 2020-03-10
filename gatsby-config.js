@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "Learn Programming from Scratch",
+    title: "Learn Programming from the Scratch",
     description:
       "Bangun karirmu sebagai developer yang siap bekerja di perusahaan teknologi",
     author: "@muhrusdiid"

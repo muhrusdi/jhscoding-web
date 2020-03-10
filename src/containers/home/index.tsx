@@ -41,7 +41,7 @@ const Home: React.FC = () => {
                   <Coming>Coming Soon</Coming>
                   <Title>
                     Learn Programming <br />
-                    <span>from Scratch</span>
+                    <span>from the Scratch</span>
                   </Title>
                   <Text>
                     Bangun karirmu sebagai developer yang siap bekerja di
