@@ -4,7 +4,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import { Row, Col } from "antd";
 import Img from "gatsby-image";
 import Container from "components/container";
-import { Nav, Title, Button, Text, Coming } from "./styled";
+import { Nav, Title, Button, Text, Coming, ImgContent } from "./styled";
 import Layout from "../layouts";
 
 const Home: React.FC = () => {
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
           </Nav>
           <div>
             <Row gutter={40} style={{ height: "80vh" }} align="middle">
-              <Col xs={12}>
+              <Col xs={24} sm={12}>
                 <div>
                   <Coming>Coming Soon</Coming>
                   <Title>
@@ -50,13 +50,13 @@ const Home: React.FC = () => {
                   <Button size="large">Contact</Button>
                 </div>
               </Col>
-              <Col xs={12}>
-                <div>
+              <Col xs={24} sm={12}>
+                <ImgContent>
                   <Img
                     fixed={data.banner.childImageSharp.fixed}
                     alt="JhsCoding"
                   />
-                </div>
+                </ImgContent>
               </Col>
             </Row>
           </div>

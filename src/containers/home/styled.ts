@@ -14,11 +14,17 @@ export const Title = styled.h1`
   span {
     color: #3278ff;
   }
+  @media screen and (max-width: 576px) {
+    font-size: 38px;
+  }
 `;
 
 export const Text = styled.p`
   font-size: 22px;
   color: #848484;
+  @media screen and (max-width: 576px) {
+    font-size: 18px;
+  }
 `;
 
 export const Content = styled.div`
@@ -46,4 +52,10 @@ export const Coming = styled.span`
   border-radius: 8px;
   margin-bottom: 14px;
   font-weight: 600;
+`;
+
+export const ImgContent = styled.div`
+  @media screen and (max-width: 576px) {
+    display: none;
+  }
 `;
